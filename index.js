@@ -2,7 +2,7 @@ const http = require("http");
 const path = require("path");
 const fs = require("fs/promises");
 
-const PORT = 2900;
+const PORT = 80;
 const DB = "./db.json";
 const filePath = path.resolve(DB);
 
